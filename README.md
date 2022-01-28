@@ -8,10 +8,8 @@
 - Navigate to the root of the project folder ie (cd project-name)
 - Run flutter pub get command to install all dependencies
 - Run either of this build runner commands to generate the necessary files
-  
-  flutter pub run build_runner build --delete-conflicting-outputs
-  # OR
-  flutter pub run build_runner watch --delete-conflicting-outputs
+    - flutter pub run build_runner build --delete-conflicting-outputs
+    - flutter pub run build_runner watch --delete-conflicting-outputs
   
 - If all runs well and there are no errors, then we are ready to build the app
 - Open emulator of your choice ie Android or IOS emulator. You can also use your mobile phone to build but only on android devices
