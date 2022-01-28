@@ -17,21 +17,9 @@
 - The app should build successfully.
 
 # Please Note 
-  Note that before loading the app, ensure that you are connect to a good internet connection
-  Whenever the app is opened, it might take a couple of seconds to load all the dog breeds data together with all thumbnails for each breed
+  - Note that before loading the app, ensure that you are connect to a good internet connection
+  - Whenever the app is opened, it might take a couple of seconds to load all the dog breeds data together with all thumbnails for each breed
     This is mainly because 2 endpoints are being queried to fetch all dog breeds data and images ie
-  - https://dog.ceo/api/breeds/list/all
-  - https://dog.ceo/api/breed/breadname/images
-  
+      - https://dog.ceo/api/breeds/list/all
+      - https://dog.ceo/api/breed/breadname/images
 
-  
-
-
-
-
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
-
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
