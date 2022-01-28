@@ -12,7 +12,7 @@
     - flutter pub run build_runner watch --delete-conflicting-outputs
   
 - If all runs well and there are no errors, then we are ready to build the app
-- Open emulator of your choice ie Android or IOS emulator. You can also use your mobile phone to build but only on android devices
+- Open emulator of your choice ie Android or IOS emulator. You can also use your mobile phone to build the app.
 - Run flutter run command inside the root of project directory
 - The app should build successfully.
 
