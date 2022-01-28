@@ -1,8 +1,8 @@
 import 'package:bloc/bloc.dart';
-import 'package:dog_breeds/lib/lib/models/Breed.dart';
-import 'package:dog_breeds/lib/lib/network/ApiResult.dart';
-import 'package:dog_breeds/lib/lib/network/NetworkExceptions.dart';
-import 'package:dog_breeds/lib/lib/repositories/DogBreedsRepository.dart';
+import 'package:dog_breeds/models/Breed.dart';
+import 'package:dog_breeds/network/ApiResult.dart';
+import 'package:dog_breeds/network/NetworkExceptions.dart';
+import 'package:dog_breeds/repositories/DogBreedsRepository.dart';
 import 'package:equatable/equatable.dart';
 
 part 'dog_breeds_state.dart';

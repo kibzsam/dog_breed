@@ -1,7 +1,7 @@
-import 'package:dog_breeds/lib/lib/config/ServiceLocator.dart';
-import 'package:dog_breeds/lib/lib/models/Breed.dart';
-import 'package:dog_breeds/lib/lib/network/ApiResult.dart';
-import 'package:dog_breeds/lib/lib/network/NetworkClient.dart';
+import 'package:dog_breeds/config/ServiceLocator.dart';
+import 'package:dog_breeds/models/Breed.dart';
+import 'package:dog_breeds/network/ApiResult.dart';
+import 'package:dog_breeds/network/NetworkClient.dart';
 
 class DogBreedsDataRepository {
   Future<ApiResult<List<DogBreed>>> getDogBreeds() async {

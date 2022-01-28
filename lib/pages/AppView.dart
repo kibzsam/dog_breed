@@ -1,6 +1,6 @@
-import 'package:dog_breeds/lib/lib/config/AppRoute.dart';
-import 'package:dog_breeds/lib/lib/config/Palette.dart';
-import 'package:dog_breeds/lib/lib/config/ServiceLocator.dart';
+import 'package:dog_breeds/config/AppRoute.dart';
+import 'package:dog_breeds/config/Palette.dart';
+import 'package:dog_breeds/config/ServiceLocator.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 

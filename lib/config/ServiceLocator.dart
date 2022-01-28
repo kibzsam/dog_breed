@@ -1,4 +1,4 @@
-import 'package:dog_breeds/lib/lib/network/NetworkClient.dart';
+import 'package:dog_breeds/network/NetworkClient.dart';
 import 'package:get_it/get_it.dart';
 
 import 'AppRoute.dart';

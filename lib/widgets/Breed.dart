@@ -1,6 +1,5 @@
-import 'package:dog_breeds/lib/lib/config/Palette.dart';
-import 'package:dog_breeds/lib/lib/models/Breed.dart';
-import 'package:flutter/cupertino.dart';
+import 'package:dog_breeds/config/Palette.dart';
+import 'package:dog_breeds/models/Breed.dart';
 import 'package:flutter/material.dart';
 
 class Breed extends StatelessWidget {

@@ -1,10 +1,10 @@
-import 'package:dog_breeds/lib/lib/blocs/dog_breeds_cubit.dart';
-import 'package:dog_breeds/lib/lib/blocs/dog_details/change_image_cubit.dart';
-import 'package:dog_breeds/lib/lib/config/AppRoute.dart';
-import 'package:dog_breeds/lib/lib/config/Palette.dart';
-import 'package:dog_breeds/lib/lib/config/ServiceLocator.dart';
-import 'package:dog_breeds/lib/lib/repositories/DogBreedsRepository.dart';
-import 'package:dog_breeds/lib/lib/widgets/Breed.dart';
+import 'package:dog_breeds/blocs/dog_breeds_cubit.dart';
+import 'package:dog_breeds/blocs/dog_details/change_image_cubit.dart';
+import 'package:dog_breeds/config/AppRoute.dart';
+import 'package:dog_breeds/config/Palette.dart';
+import 'package:dog_breeds/config/ServiceLocator.dart';
+import 'package:dog_breeds/repositories/DogBreedsRepository.dart';
+import 'package:dog_breeds/widgets/Breed.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';

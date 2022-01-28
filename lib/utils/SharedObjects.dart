@@ -1,4 +1,4 @@
-import 'package:dog_breeds/lib/lib/config/Constants.dart';
+import 'package:dog_breeds/config/Constants.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 
 class SharedObjects {
@@ -41,7 +41,7 @@ class CachedSharedPreferences {
 
   Future<void> clearAll() async {
     await sharedPreferences!.clear();
-    map = Map();
+    map = {};
   }
 
   Future<void> clearSession() async {

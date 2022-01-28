@@ -1,6 +1,6 @@
-import 'package:dog_breeds/lib/lib/blocs/dog_details/change_image_cubit.dart';
-import 'package:dog_breeds/lib/lib/config/Palette.dart';
-import 'package:dog_breeds/lib/lib/models/Breed.dart';
+import 'package:dog_breeds/blocs/dog_details/change_image_cubit.dart';
+import 'package:dog_breeds/config/Palette.dart';
+import 'package:dog_breeds/models/Breed.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:provider/src/provider.dart';

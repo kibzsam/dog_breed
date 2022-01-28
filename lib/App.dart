@@ -1,4 +1,4 @@
-import 'package:dog_breeds/lib/lib/pages/AppView.dart';
+import 'package:dog_breeds/pages/AppView.dart';
 import 'package:flutter/material.dart';
 
 class App extends StatefulWidget {
