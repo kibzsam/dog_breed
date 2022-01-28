@@ -7,4 +7,5 @@ class Palette {
   static const Color secondaryColor = Color(0xfff5f9fa);
   static const Color primaryTextColor = Color(0xff5d748d);
   static const Color secondaryTextColor = Color(0xff777777);
+  static const Color tertiaryColor = Color(0xffffffff);
 }

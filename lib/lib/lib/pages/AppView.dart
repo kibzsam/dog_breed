@@ -21,7 +21,7 @@ class AppView extends StatelessWidget {
           color: Palette.primaryColor,
         ),
       ),
-      home: const HomePage(),
+      home: HomePage(),
     );
   }
 }

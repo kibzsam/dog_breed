@@ -16,7 +16,7 @@ class SimpleBlocObserver extends BlocObserver {
     SystemChrome.setPreferredOrientations([
       DeviceOrientation.portraitUp,
     ]).then((value) {
-      runApp(App());
+      runApp(const App());
     });
   }
 }

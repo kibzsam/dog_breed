@@ -15,11 +15,7 @@ class DogBreedsDataRepository {
       for (var element in list) {
         final images = await getImagesUrls(element.name!);
         listWithImages.add(DogBreed(element.name, element.subBreeds, images));
-        // listWithImages.add(
-        //   DogBreed(element.name, element.subBreeds, images),
-        // );
       }
-      print(listWithImages);
       return ApiResult.success(data: listWithImages);
     } catch (e) {
       rethrow;
