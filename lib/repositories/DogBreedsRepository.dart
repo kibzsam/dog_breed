@@ -6,15 +6,12 @@ import 'package:dog_breeds/network/NetworkClient.dart';
 class DogBreedsDataRepository {
   Future<ApiResult<List<DogBreed>>> getDogBreeds() async {
     try {
-      List<DogBreed> list = [];
       List<DogBreed> listWithImages = [];
       final results = await locator!<NetworkClient>().dogDetails.get('/breeds/list/all');
-      results['message'].forEach((k, v) {
-        list.add(DogBreed(k, v, const []));
-      });
-      for (var element in list) {
-        final images = await getImagesUrls(element.name!);
-        listWithImages.add(DogBreed(element.name, element.subBreeds, images));
+      for (final entry in results['message'].entries) {
+        await getImagesUrls(entry.key.toString()).then((value) {
+          listWithImages.add(DogBreed(entry.key.toString(), entry.value, value));
+        }).catchError((error) => print(error));
       }
       return ApiResult.success(data: listWithImages);
     } catch (e) {
