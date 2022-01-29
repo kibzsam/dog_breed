@@ -7,12 +7,13 @@ class DogBreedsDataRepository {
   Future<ApiResult<List<DogBreed>>> getDogBreeds() async {
     try {
       List<DogBreed> listWithImages = [];
-      final results = await locator!<NetworkClient>().dogDetails.get('/breeds/list/all');
+      final results = await locator!<NetworkClient>().dogDetails.get('/breeds/list/all/random/25');
       for (final entry in results['message'].entries) {
         await getImagesUrls(entry.key.toString()).then((value) {
           listWithImages.add(DogBreed(entry.key.toString(), entry.value, value));
         }).catchError((error) => print(error));
       }
+      print(listWithImages.length);
       return ApiResult.success(data: listWithImages);
     } catch (e) {
       rethrow;
